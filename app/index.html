@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World by the Numbers — Global Statistics</title>
+<meta name="description" content="World statistics with real figures: population, GDP, health, climate and education for the world and its major countries, with sources and years.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>World <span class="num">by the Numbers</span></h1>
+    </div>
+    <p class="tagline">The planet, measured — population, money, health, climate and learning, with a source and a year for every figure.</p>
+    <nav class="tabs" id="nav" aria-label="Sections">
+      <a href="#/" data-route="">Overview</a>
+      <a href="#/countries" data-route="countries">Countries</a>
+      <a href="#/indicators" data-route="indicators">Indicators</a>
+      <a href="#/trends" data-route="trends">Trends</a>
+      <a href="#/compare" data-route="compare">Compare</a>
+      <a href="#/sources" data-route="sources">Sources</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="app" aria-live="polite">
+  <noscript><p>This site needs JavaScript to show its tables and charts.</p></noscript>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <p><strong>World by the Numbers.</strong> An independent statistics site. Figures are published official statistics, each labelled with its source and year — see the Sources page for the full list.</p>
+    <p>Data: World Bank World Development Indicators · United Nations World Population Prospects 2024 · Global Carbon Budget · UNESCO · UNDP · ITU. This site works fully offline; it makes no network requests.</p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
